@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/pfranciskoe/portfolio/issues"
   },
-  "homepage": "https://github.com/pfranciskoe/portfolio#readme"
+  "homepage": "https://github.com/pfranciskoe/portfolio#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
