@@ -1,10 +1,16 @@
 body {
-    background-color: black;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 img {
     width: 100%;
 }
-h1 {
-    color: white;
+
+div{
+    color: rgb(67, 67, 67);
+    display: flex;
+}
+.title-div{
+    width: 80%;
+    justify-self: start;
 }
