@@ -100,34 +100,61 @@ div{
 
 .project-viewport{
     width: 100%;
-    height: 40%;
-}
-.project-desc{
-    width: 100%;
-    height: 60%;
-    margin: 0;
+    height: calc(100%/3);
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.sub{
+    margin: 0px;
+    margin-left: 10vw;
+    font-weight: 300;
+    font-size: 4vh;
 }
 .dtc-viewport{
-    flex-direction: column;
     background-color:#1e8ced;
-    justify-content: space-evenly;
-    align-content: center;
 }
 
 .dtc-text{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 10vw;
+    font-size: 6vh;
     margin-left: 10vw;
     text-decoration: none;
     color: white;
 }
+.dtc-sub{
+    font-family: 'Montserrat', sans-serif;
+}
+.exp-viewport{
+    background-color:#FBB040;
+}
 
-.project-desc > p{
-    margin: 10vw;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 3vw;
+.exp-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 6vh;
+    margin-left: 10vw;
+    text-decoration: none;
+    color: white;
+}
+.exp-sub{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+.trk-viewport{
+    background-color:#f75268;
+}
+
+.trk-text{
+    font-family:'Major Mono Display', monospace;
+    font-weight: 900;
+    font-size: 6vh;
+    margin-left: 10vw;
+    text-decoration: none;
+    color: white;
+}
+.trk-sub{
+    font-family:'Major Mono Display', monospace;
 }
 .work-footer{
     position: absolute;
