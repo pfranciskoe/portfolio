@@ -14,7 +14,8 @@ div{
     top: 90vh;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 15vh;
+    font-size: 10vh;
+    font-weight: 100;
     transition: all 300ms ease-in-out;
 }
 #nav-arrow:hover{
@@ -30,12 +31,22 @@ div{
 .title-div{
     width: 60%;
     height: 100%;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 .title-name{
     font-size: 8vh;
-    text-align: center;
+    text-align: start;
+    margin: 0px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+.bio{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size: 2vh;
+    text-align: start;
 }
 .links{
     width: 40%;
@@ -54,11 +65,22 @@ div{
 }
 .logo{
     width: auto;
-    height: 10vh;
-    transition: all 0.2s ease;
+    height: 7vh;
+    border-radius: 7vh;
+    border: none;
+    transition: all 0.5s ease;
 }
 .logo:hover{
     height: 12vh;
+    background-color: rgb(94, 144, 254);
+}
+.project-footer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3vh;
+    top: 88vh;
+    font-weight: 400;
 }
 
 /* Page 2 */
