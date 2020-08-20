@@ -74,17 +74,24 @@ div{
     height: 12vh;
     background-color: rgb(94, 144, 254);
 }
-.project-footer{
+.tech-footer{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     font-size: 3vh;
     top: 88vh;
     font-weight: 400;
+    
 }
 
 /* Page 2 */
-
+.skills-name{
+    font-size: 4.5vh;
+    text-align: start;
+    margin: 0px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
 #body-page{
     height: 100vh;
     width: 100%;
@@ -99,6 +106,7 @@ div{
     width: 100%;
     height: 60%;
     margin: 0;
+    flex-direction: column;
 }
 .dtc-viewport{
     flex-direction: column;
@@ -110,22 +118,22 @@ div{
 .dtc-text{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 8vw;
-    margin-left: 8vw;
+    font-size: 10vw;
+    margin-left: 10vw;
     text-decoration: none;
     color: white;
 }
-.subhead{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 3vh;
-    margin-left: 20vw;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
 .project-desc > p{
-    margin: 5vw;
+    margin: 10vw;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 3vw;
+}
+.work-footer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3vh;
+    top: 188vh;
+    font-weight: 400;
 }
