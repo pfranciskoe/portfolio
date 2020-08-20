@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     height: fit-content;
     margin: 0px;
     padding: 0px;
@@ -20,18 +20,36 @@ div{
     justify-content: space-evenly;
 }
 .title-name{
-    font-size: 10vh;
+    font-size: 8vh;
+    text-align: center;
 }
-.link-div{
+.links{
+    width: 40%;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.link-group{
+    height: 40%;
     width: 40%;
     align-items: center;
+    flex-direction: column;
     justify-content: space-evenly;
-}
-.link-list{
-    list-style: none;
 }
 .logo{
     width: auto;
     height: 10vh;
-    color: teal;
+    transition: all 0.2s ease;
+}
+.logo:hover{
+    height: 12vh;
+}
+#nav-arrow{
+    position: fixed;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15vh;
 }
