@@ -13,13 +13,13 @@ div{
     position: fixed;
     top: 90vh;
     left: 50%;
-    transform: translateX(-50%);
-    font-size: 10vh;
+    transform: translate(-50%,0%);
+    font-size: 5vh;
     font-weight: 100;
     transition: all 300ms ease-in-out;
 }
 #nav-arrow:hover{
-    font-size: 17vh;
+    transform: translate(-50%,10%);
     cursor: pointer;
 }
 /* Page 1 */
@@ -59,9 +59,15 @@ div{
 .link-group{
     height: 40%;
     width: 40%;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.logo-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
 }
 .logo{
     width: auto;
@@ -71,9 +77,16 @@ div{
     transition: all 0.5s ease;
 }
 .logo:hover{
-    height: 12vh;
     background-color: rgb(94, 144, 254);
 }
+.logo-label{
+    color: black;
+    text-decoration:none;
+}
+.logo-link:hover{
+    color: black;
+}
+
 .tech-footer{
     position: absolute;
     left: 50%;
