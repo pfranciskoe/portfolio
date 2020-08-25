@@ -51,7 +51,6 @@ div{
 .links{
     width: 40%;
     flex-direction: row;
-    justify-self: center;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -59,7 +58,6 @@ div{
 .link-group{
     height: 40%;
     width: 40%;
-    align-items: flex-start;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -67,24 +65,31 @@ div{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
     text-decoration: none;
+    color: white;
+    border-radius: 7vh 0 0 7vh;
+    transition: all 300ms ease-in-out;
+}
+@media (min-width: 550px) {
+
+.logo-link:hover{
+    color: black;
+}
+.logo:hover{
+    height: 8vh;
+}
 }
 .logo{
     width: auto;
     height: 7vh;
-    border-radius: 7vh;
     border: none;
-    transition: all 0.5s ease;
-}
-.logo:hover{
-    background-color: rgb(94, 144, 254);
+    transition: all 200ms ease;
 }
 .logo-label{
-    color: black;
+    font-size: 2vh;
     text-decoration:none;
-}
-.logo-link:hover{
-    color: black;
+    padding-left: 1vw;
 }
 
 .tech-footer{
