@@ -76,16 +76,27 @@ div{
 .logo-link:hover{
     color: black;
 }
-.logo:hover{
-    height: 8vh;
-}
 
 }
 .logo{
     width: auto;
     height: 7vh;
     border: none;
+    border-radius: 7vh;
     transition: all 200ms ease;
+}
+.logo-ln{
+    background-color: #1e8ced;
+}
+.logo-gh{
+    background-color: #FBB040;
+}
+.logo-em{
+    background-color: #f75268;  
+}
+.logo:hover{
+    height: 7.5vh;
+    background-color: white;
 }
 .logo-label{
     font-size: 2vh;
