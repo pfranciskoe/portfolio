@@ -35,18 +35,31 @@ div{
     align-items: flex-start;
     justify-content: center;
 }
+/* .cover-photo{
+    position: absolute;
+    width: 100vw;
+    max-height: 100vh;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    opacity: 60%;
+} */
+
 .title-name{
     font-size: 8vh;
     text-align: start;
     margin: 0px;
     margin-left: 4vw;
     margin-right: 4vw;
+    color: black;
 }
 .bio{
     margin-left: 4vw;
     margin-right: 4vw;
     font-size: 2vh;
     text-align: start;
+    color: black;
 }
 .links{
     width: 40%;
@@ -73,9 +86,9 @@ div{
 }
 @media (min-width: 550px) {
 
-.logo-link:hover{
-    color: black;
-}
+    .logo-link:hover{
+        color: black;
+    }
 
 }
 .logo{
@@ -83,6 +96,7 @@ div{
     height: 7vh;
     border: none;
     border-width: 0px;
+    padding: 0px;
     border-radius: 7vh;
     transition: all 200ms ease;
 }
