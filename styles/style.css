@@ -82,6 +82,7 @@ div{
     width: auto;
     height: 7vh;
     border: none;
+    border-width: 0px;
     border-radius: 7vh;
     transition: all 200ms ease;
 }
