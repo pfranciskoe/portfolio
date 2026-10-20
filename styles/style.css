@@ -30,7 +30,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: clamp(20px, 3vw, 36px);
-    background: #efece6 repeating-linear-gradient(90deg, #00000012 0 1px, transparent 1px calc(100% / 12));
+    background-color: #efece6;
+    background-image:
+        linear-gradient(#0000001c 1px, transparent 1px),
+        linear-gradient(90deg, #0000001c 1px, transparent 1px),
+        linear-gradient(#0000000d 1px, transparent 1px),
+        linear-gradient(90deg, #0000000d 1px, transparent 1px);
+    background-size: 160px 160px, 160px 160px, 32px 32px, 32px 32px;
     color: #111;
     font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
